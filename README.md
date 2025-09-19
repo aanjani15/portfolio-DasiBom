@@ -1,5 +1,3 @@
-# portfolio-DasiBom
-
 # 🌸 Dasi,Bom
 
 **개발기간** : ﻿2025.06.10 ~ 2025.06.30 (총 23일)  
@@ -35,17 +33,17 @@
 ---
 
 ### 🛠️ 담당 역할
-#### (1) 도서 상세 페이지
+#### 1. 도서 상세 페이지
 - 도서 정보 출력 및 구매 버튼 제공
 - 별점 기반 리뷰 작성·출력, 찜 기능 지원
 - 로그인 상태에 따라 리뷰/찜/구매 기능 제어
 
-#### (2) 굿즈샵 페이지
+#### 2. 굿즈샵 페이지
 - 도서 관련 굿즈 목록 출력 및 필터링
 - 장바구니 담기, 포인트 사용 구매 기능
 - goods_table 기반 목록 관리 및 category 필터링 
 
-#### (3) 이벤트/출석 체크
+#### 3. 이벤트/출석 체크
 - 로그인 사용자 대상 출석 체크 버튼 활성화
 - 출석 시 포인트·쿠폰 지급 및 달력 시각화
 - attendance_table에 출석 기록 저장 및 중복 제어
@@ -91,12 +89,12 @@ ERD 이미지 첨부 (https://drive.google.com/file/d/1w71uiQtHlZOAZHArbiijRmf_r
 </details>
 
 **주요 테이블** :
-- ﻿사용자/인증: user_table, user_coupon_table
-- 도서(중고 도서): book_table, used_book_table
-- 주문: user_order_table, user_order_detail_table, guest_order_table, guest_order_detail_table, user_goods_order_detail_table, guest_goods_order_detail_table, wishlist_table, goods_whishlisth_table 
-- 포인트: point_table
-- 굿즈,이벤트: goods_table, attendance_table, coupon_table
-- 커뮤니티: review_table, review_comment_table, community_comment_table, photos_table, community_table
+- ﻿**사용자/인증**: user_table, user_coupon_table
+- **도서(중고 도서)**: book_table, used_book_table
+- **주문**: user_order_table, user_order_detail_table, guest_order_table, guest_order_detail_table, user_goods_order_detail_table, guest_goods_order_detail_table, wishlist_table, goods_whishlisth_table 
+- **포인트**: point_table
+- **굿즈·이벤트**: goods_table, attendance_table, coupon_table
+- **커뮤니티**: review_table, review_comment_table, community_comment_table, photos_table, community_table
 
 ---
 
