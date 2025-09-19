@@ -55,9 +55,25 @@
 <details>
 <summary>📷 화면 구성</summary>
 
-![지갑 페이지](./images/wallet.png)  
-![포인트 관리](./images/point.png)  
-![나무 키우기](./images/tree.png)  
+
+|구분| 화면 | 미리보기 |
+|----------|----------|----------|
+|공통| 메인화면 | <img width="683" height="356" alt="image" src="https://github.com/user-attachments/assets/a790981f-18a9-4bde-8c4f-5d3119fd92e4" /> |
+|공통| 굿즈 페이지 | <img width="502" height="307" alt="image" src="https://github.com/user-attachments/assets/d26cfbdc-9ebd-458e-8c38-23ac772a4ab6" /> |
+|공통| 굿즈 상세 페이지 & 더보기| <img width="965" height="582" alt="image" src="https://github.com/user-attachments/assets/ad5149a7-d93f-42d3-b0f9-91603c72c3ec" /> <img width="460" height="301" alt="image" src="https://github.com/user-attachments/assets/f772022c-9836-45dc-8437-000d10d389a6" /> |
+|공통| 이벤트 페이지| <img width="840" height="370" alt="image" src="https://github.com/user-attachments/assets/4a730271-2ead-4cd0-8f02-151e0248a978" /> |
+|공통| 도서 상세 페이지 | <img width="846" height="447" alt="image" src="https://github.com/user-attachments/assets/e04d2302-553b-4f75-a09a-f380fa664ecf" /> |
+|유저| 리뷰 작성 | <img width="600" alt="image" src="https://github.com/user-attachments/assets/9b6761ca-4055-459e-9714-b65b12ce66c3" /> |
+|유저| 댓글 | <img width="600" alt="image" src="https://github.com/user-attachments/assets/49842821-4481-43cb-a518-abe28f9eed28" /> |
+|유저| 출석이벤트 | <img width="600" alt="image" src="https://github.com/user-attachments/assets/63f58b3e-f7a1-4cdd-a3fb-4985aa6ddec3" /> <img width="600" alt="image" src="https://github.com/user-attachments/assets/cc53c9d1-fbb7-482c-88bf-9f9f0baf0a79" /> | 
+|유저| 장바구니 | <img width="600" alt="image" src="https://github.com/user-attachments/assets/685a4a07-216d-4da5-b65e-2546fc35541e" /> | 
+|유저| 결제하기 | <img width="600" alt="image" src="https://github.com/user-attachments/assets/1d07e2b4-d860-47c3-b1c5-c9317d2eb393" /> | 
+|유저| 중고도서 | <img width="656" height="308" alt="image" src="https://github.com/user-attachments/assets/4e652168-c6f1-4911-b03d-5b393c5809c8" /> | 
+|공통| 게시판 | <img width="593" height="325" alt="image" src="https://github.com/user-attachments/assets/edc6b5df-b396-4091-9a68-dae28e5fc791" /> | 
+|유저| 마이페이지 | <img width="642" height="353" alt="image" src="https://github.com/user-attachments/assets/f26a0075-7867-4b73-b258-ff6d15f29ada" /> | 
+|유저| 구매내역 & 환불 | <img width="645" height="355" alt="image" src="https://github.com/user-attachments/assets/9cc9d062-509e-41d8-a0e4-ab246933de30" /> | 
+|관리자| 유저관리 & 쿠폰지급 | <img width="679" height="320" alt="image" src="https://github.com/user-attachments/assets/472da0e1-f137-4b49-9b28-6193d3cd6e78" /> |
+|관리자| 구매내역 & 환불처리| <img width="482" height="292" alt="image" src="https://github.com/user-attachments/assets/80164d28-c29c-48f0-824e-65e16ef88b93" /> <img width="557" height="251" alt="image" src="https://github.com/user-attachments/assets/d6cc2d05-8ad6-44a9-9916-c0a821615ba0" /> |
 
 </details>
 
