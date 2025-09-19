@@ -117,6 +117,6 @@ ERD 이미지 첨부 (https://drive.google.com/file/d/1w71uiQtHlZOAZHArbiijRmf_r
 
 ### 🎥 시연 자료
 - [📺 시연 영상 보기](https://drive.google.com/file/d/1pIk7VF6Yq5ruwVTl7RSlTIRkIgqB7VIe/view?usp=drive_link)  
-- [📑 발표 자료 (PPT)](https://docs.google.com/presentation/d/1s9zOqIuhEfhk62CTuS1FbKntk4OZQXs8/edit?usp=drive_link&ouid=115939005204624444347&rtpof=true&sd=true)
+- [📑 발표 자료 (PPT)](https://docs.google.com/presentation/d/1vRkRwIw13_7I01pk2DKZlyrN8tb0rPAd/edit?usp=drive_link&ouid=115939005204624444347&rtpof=true&sd=true)
 - [📑 발표 자료 (pdf)](https://drive.google.com/file/d/1YdbwpTnCDHDKLhtmtihu2GvQgdYsxXvu/view?usp=drive_link)
 - [📑 사이트맵](https://drive.google.com/file/d/1oemhnf1p7zDzyH_jC-ZArEcNbIdBa-KX/view?usp=drive_link)
