@@ -220,87 +220,84 @@
 	            btn.textContent = '상품 정보 펼치기 ▼';
 	        }
 	    }
-
-
-	    
 	</script>
+	
 	<script>
-						async function handleGoodsCartClickAjax(goods_Id) {
-						    if (!isLoggedIn || isLoggedIn === "false") {
-						        document.getElementById("loginModal").style.display = "flex";
-						        return;
-						    }
-					
-						    try {
-						    	const contextPath = "${pageContext.request.contextPath}";
-						    	console.log(contextPath);
-						    	
-						    	const count = document.getElementById("quantityInput").value;
-						        const response = await fetch(`/dasibom/checkGoodsCartItem.do?goods_Id=${goods.goods_Id}&count=`+count+`&image_Path=${photoList[0].img_path}`);
-						        const result = await response.text(); // "empty" | "exist"
-						        const cleanResult = result.trim().replace(/"/g, '');
-					
-						        if (cleanResult === "empty") {
-						            document.getElementById("goodsCartModal").style.display = "flex";
-						        } else if (cleanResult === "exist") {
-						            document.getElementById("goodsSameItemModal").style.display = "flex";
-						        }
-					
-						    } catch (e) {
-						        console.error("장바구니 확인 실패", e);
-						    }
-						} 
-					</script>
-					
-					<script>
-						function handleGoodsBuyClickAjax(goods_Id) {
-						    if (!isLoggedIn || isLoggedIn === "false") {
-						        document.getElementById("goodsNotLoginModal").style.display = "flex";
-						        return;
-						    }
-					
-						    try {
-						    	document.getElementById("goodsBuyModal").style.display = "flex";
-					
-						    } catch (e) {
-						        console.error("구매 실패", e);
-						    }
-						} 
-						
-						async function goToBuy() {
-							const contextPath = "${pageContext.request.contextPath}";
-					    	const count = document.getElementById("quantityInput").value;
-					    	alert(count + `${photoList[0].img_path} ${goods.goods_Id}`)
-					        //const response = await fetch(`/dasibom/checkBuyItem.do?isbn=${book.isbn}&count=`+count+`&image_path=${book.image_Path}`);
-						}
-						</script>
-					
-					<script>
-						async function handleGoodsJjimClickAjax(goods_Id) {
-						    if (!isLoggedIn || isLoggedIn === "false") {
-						        document.getElementById("loginModal").style.display = "flex";
-						        return;
-						    }
-					
-						    try {
-						    	const contextPath = "${pageContext.request.contextPath}";
-						    	
-						    	const count = document.getElementById("quantityInput").value;
-						        const response = await fetch(`/dasibom/checkGoodsJjimItem.do?goods_Id=${goods.goods_Id}&count=`+count+`&image_Path=${photoList[0].img_path}`);
-						        const result = await response.text();
-						        const cleanResult = result.trim().replace(/"/g, '');
-					
-						        if (cleanResult === "empty") {
-						            document.getElementById("goodsJjimModal").style.display = "flex";
-						        } else if (cleanResult === "exist") {
-						            document.getElementById("goodsSameJjimItemModal").style.display = "flex";
-						        }
-					
-						    } catch (e) {
-						        console.error("찜목록 확인 실패", e);
-						    }
-						} 
-					</script>
+		async function handleGoodsCartClickAjax(goods_Id) {
+			if (!isLoggedIn || isLoggedIn === "false") {
+				document.getElementById("loginModal").style.display = "flex";
+				return;
+			}
+	
+			try {
+				const contextPath = "${pageContext.request.contextPath}";
+				console.log(contextPath);
+				
+				const count = document.getElementById("quantityInput").value;
+				const response = await fetch(`/dasibom/checkGoodsCartItem.do?goods_Id=${goods.goods_Id}&count=`+count+`&image_Path=${photoList[0].img_path}`);
+				const result = await response.text(); // "empty" | "exist"
+				const cleanResult = result.trim().replace(/"/g, '');
+	
+				if (cleanResult === "empty") {
+					document.getElementById("goodsCartModal").style.display = "flex";
+				} else if (cleanResult === "exist") {
+					document.getElementById("goodsSameItemModal").style.display = "flex";
+				}
+	
+			} catch (e) {
+				console.error("장바구니 확인 실패", e);
+			}
+		} 
+	</script>
 
-</body>
+		<script>
+			function handleGoodsBuyClickAjax(goods_Id) {
+				if (!isLoggedIn || isLoggedIn === "false") {
+					document.getElementById("goodsNotLoginModal").style.display = "flex";
+					return;
+				}
+		
+				try {
+					document.getElementById("goodsBuyModal").style.display = "flex";
+		
+				} catch (e) {
+					console.error("구매 실패", e);
+				}
+			} 
+			
+			async function goToBuy() {
+				const contextPath = "${pageContext.request.contextPath}";
+				const count = document.getElementById("quantityInput").value;
+				alert(count + `${photoList[0].img_path} ${goods.goods_Id}`)
+				//const response = await fetch(`/dasibom/checkBuyItem.do?isbn=${book.isbn}&count=`+count+`&image_path=${book.image_Path}`);
+			}
+			</script>
+		
+		<script>
+			async function handleGoodsJjimClickAjax(goods_Id) {
+				if (!isLoggedIn || isLoggedIn === "false") {
+					document.getElementById("loginModal").style.display = "flex";
+					return;
+				}
+		
+				try {
+					const contextPath = "${pageContext.request.contextPath}";
+					
+					const count = document.getElementById("quantityInput").value;
+					const response = await fetch(`/dasibom/checkGoodsJjimItem.do?goods_Id=${goods.goods_Id}&count=`+count+`&image_Path=${photoList[0].img_path}`);
+					const result = await response.text();
+					const cleanResult = result.trim().replace(/"/g, '');
+		
+					if (cleanResult === "empty") {
+						document.getElementById("goodsJjimModal").style.display = "flex";
+					} else if (cleanResult === "exist") {
+						document.getElementById("goodsSameJjimItemModal").style.display = "flex";
+					}
+		
+				} catch (e) {
+					console.error("찜목록 확인 실패", e);
+				}
+			} 
+		</script>
+	</body>
 </html>
