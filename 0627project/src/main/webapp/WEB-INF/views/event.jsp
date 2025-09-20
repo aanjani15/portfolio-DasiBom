@@ -137,7 +137,7 @@
 
 		</div>
 		<!-- layout-wrapper -->
-		<!-- ✅ 중앙 정렬된 페이징 버튼 -->
+		<!-- 중앙 정렬된 페이징 버튼 -->
 		<div class="button-wrapper">
 			<div class="button-row">
 				<!-- 이전 버튼 -->
