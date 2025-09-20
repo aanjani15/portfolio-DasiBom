@@ -685,7 +685,7 @@ function hideEditForm(reviewId) {
 		        });
 		    } 
 		    	
-		    // 좋아요버튼 localStorage 또는 localStorage 사용
+		    // 좋아요버튼 localStorage 사용
 		    const likedReviews = JSON.parse(localStorage.getItem('likedReviews') || '[]');
 		
 		    document.querySelectorAll('.like-form').forEach(form => {
