@@ -35,34 +35,20 @@
 	    text-align: center;
 	}
 	
-	/* 상품 그리드 → flex 사용 (유연하게 배치됨) */
+	/* 상품 그리드 flex 사용 */
 	.goods-grid {
 	    display: flex;
 	    flex-wrap: wrap;
 	    justify-content: center;
-	    gap: 20px;  /* 상품 간격 조금 더 보기좋게 */
-	     max-width: 1100px; /* 한 줄에 3개 들어가게 제한 */
+	    gap: 20px;  /* 상품 간격  */
+	     max-width: 1100px; /* 한 줄에 3개 */
 	    margin: 0 auto;
 	    padding: 0 30px 40px 30px;
 	}
-	
-	/* 개별 상품 박스 */
-/* 	.goods-item {
-	    border: 1px solid #eee;
-	    padding: 12px;
-	    border-radius: 8px;
-	    text-align: center;
-	    transition: all 0.2s ease;
-	    cursor: pointer;
-	    flex: 0 0 calc(25% - 30px); /* 4개씩 한 줄 */
-	    /* flex: 0 0 calc(33.333% - 40px); */ /* 3개씩 한 줄 */
-	  /*  box-sizing: border-box; 
-	}
-	 */
-	 
+		 
 	 
 .goods-item {
-    flex: 0 0 calc(25% - 30px); /* 크기 그대로 유지 */
+    flex: 0 0 calc(25% - 30px);
     border: 1px solid #eee;
     padding: 12px;
     border-radius: 8px;
@@ -73,7 +59,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 520px;  /* 세로 길게 */
+    height: 520px;
 }
 
 	
@@ -84,13 +70,13 @@
 	
 .goods-image {
     width: 100%;
-    height: 320px;  /* 세로 더 길게 */
+    height: 320px; 
     object-fit: cover;
     border-radius: 5px;
 }
 	
 	.goods-name {
-	    font-size: 17px;  /* 살짝 키움 */
+	    font-size: 17px;  
 	    font-weight: bold;
 	    margin: 12px 0 5px 0;
 	    color: #333;
@@ -124,7 +110,7 @@
 	    margin: 20px auto;
 	    border-radius: 12px;
 	    overflow: hidden;
-	    position: relative;  /* ⭐⭐ 이거 꼭 추가 ⭐⭐ */
+	    position: relative; 
 	}
 
 	.swiper-slide img {
@@ -135,14 +121,13 @@
         
 	.swiper-button-next,
 	.swiper-button-prev {
-	    color: #ff6699;	/* 원하는 색 */
+	    color: #ff6699;	
 	    top: 50%;
 	    transform: translateY(-50%);
 	    width: 40px;
 	    height: 40px;
 	}
 	
-	/* 이미지와 버튼 조금 더 가깝게 */
 	.swiper-button-next { right: 5px; }
 	.swiper-button-prev { left: 5px; } 
 	
@@ -190,7 +175,6 @@
 	        </c:forEach>
 	    </div>
 	    
-			        <!-- ⭐️ 양옆 버튼 추가 -->
 		    <div class="swiper-button-prev"></div>
 		    <div class="swiper-button-next"></div>
 		</div>
@@ -231,11 +215,10 @@
 		        delay: 2000,  // 2초마다 자동
 		        disableOnInteraction: false
 		    },
-		    speed: 1000,  // 슬라이드 전환 속도 (1초)
+		    speed: 1000,  // 슬라이드 전환 속도 1초
 		    slidesPerView: 1,
 		    spaceBetween: 10,
 	
-		    // ⭐️ 버튼 활성화
 		    navigation: {
 		        nextEl: '.swiper-button-next',
 		        prevEl: '.swiper-button-prev'
