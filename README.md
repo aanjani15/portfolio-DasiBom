@@ -5,7 +5,7 @@
 **담당업무** : ﻿제안, 기획, Framework 설계, 디자인, 담당 기능 개발  
 **개발환경** : Tomcat 8.5, Oracle DB, Eclipse  
 **사용도구** : ﻿draw.io, Pencil, dbdiagram.io  
-**사용기술** : ﻿Spring Web, JSP, MyBatis, Java, JavaScript, SQL, MVC, API  
+**사용기술** : ﻿Spring Web, JSP, MyBatis, Java, JavaScript, MVC, API  
 
 ---
 
